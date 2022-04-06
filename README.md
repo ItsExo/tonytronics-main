@@ -1,15 +1,13 @@
 # tonytronics-main
 
 
+----------- Bram -----------
+
+
+
 
 ----------- Nick -----------
  
- 
- 
- 
------------ Bram -----------
-  
-  
   
   
   
@@ -19,4 +17,6 @@ test werkt push?
    
    
 ----------- Indy -----------
+
+
 Webshop name in tabblad veranderd naar Tony Tronics
