@@ -75,24 +75,34 @@ main
 
 main
 {
+  padding: 0%;
     width: calc(85% - 5px);
+    background-color: #ffffff;
+    
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+    
+    
 }
 
 main div
 {
-    display: inline-block;
-    vertical-align: top;
-    box-sizing: border-box;
+    height: 300px;
     width: 250px;
-    padding: 15px;
     border: solid 2px lightgrey;
     margin: 15px 0 0 15px;
+    text-align: center;
 }
 
 main div img
 {
     width: 100%;
     height: 150px;
+    margin-bottom: 15px;
 }
 
 main div h5
@@ -346,10 +356,7 @@ p {
         }
 
         main {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-wrap: wrap;
+          
         }
 
         form{
