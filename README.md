@@ -1,15 +1,13 @@
 # tonytronics-main
 
 
+----------- Bram -----------
+
+
+
 
 ----------- Nick -----------
  
- 
- 
- 
------------ Bram -----------
-  
-  
   
   
   
@@ -20,4 +18,6 @@
    
    
 ----------- Indy -----------
+
+
 Webshop name in tabblad veranderd naar Tony Tronics

@@ -9,6 +9,26 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+        <script src="jquery-3.6.0.min.js" ></script>
+        <script>
+
+$(document).ready(function() {
+    // let winkelwagenTeller = 0;
+    // $('main div').on('click', function(){
+    //     winkelwagenTeller++;
+    //     $('header span a').html(Winkelmand(${winkelwagenTeller})
+    // });
+
+    $('input[name="50"]').on('click', function(){
+        if($('input[name="50"]:checked')){
+            $('.honderd').css({'display':'none'});
+            $('.vijfhonderd').css({'display':'none'});
+        }
+    })
+})
+
+    
+    </script>
     </head>
     <body>
 
@@ -39,14 +59,14 @@
         <aside>
             <form>
                 <h4>Prijs</h4>
-                <input type="checkbox"> €0-€50<br>
-                <input type="checkbox"> €50-€100<br>
-                <input type="checkbox"> €100-€500<br><br>
+                <input name="50" type="checkbox"> €0-€50<br>
+                <input name="100" type="checkbox"> €50-€100<br>
+                <input name="500" type="checkbox"> €100-€500<br><br>
 
                 <h4>Merk</h4>
-                <input type="checkbox"> Arduino<br>
-                <input type="checkbox"> Ximico<br>
-                <input type="checkbox"> BigTreeTech<br><br>
+                <input name="arduino" type="checkbox"> Arduino<br>
+                <input name= "ximico" type="checkbox"> Ximico<br>
+                <input name= "bigtreetech"type="checkbox"> BigTreeTech<br><br>
 
                 <h4>Microcontroller</h4>
                 <input type="checkbox"> Microbit<br>
@@ -56,62 +76,62 @@
         </aside>
         
         <main>
-            <div>
+            <div class="10">
                 <img src="images/producten/product_1.jpg">
                 <h5>Arduino Uno Shield</h5>
                 <p>€ 10,99</p>
             </div>
-            <div>
+            <div class="50">
                 <img src="images/producten/product_2.jpg">
                 <h5>ximico Mega 2560 R3</h5>
                 <p>€ 17,00</p>
             </div>
-            <div>
+            <div class="50">
                 <img src="images/producten/product_3.jpg">
                 <h5>Arduino Nano REV 3</h5>
                 <p>€ 16,10</p>
             </div>
-            <div>
+            <div class="50">
                 <img src="images/producten/product_4.jpg">
                 <h5>Arduino Uno</h5>
                 <p>€ 12,99</p>
             </div>
-            <div>
+            <div class="50">
                 <img src="images/producten/product_5.jpg">
                 <h5>Arduino Nano V3</h5>
                 <p>€ 9,95</p>
             </div>
-            <div>
+            <div class="50">
                 <img src="images/producten/product_6.jpg">
                 <h5>ESP32-Audio-Kit</h5>
                 <p>€ 15,99</p>
             </div>
-            <div>
+            <div class="50">
                 <img src="images/producten/product_7.jpg">
                 <h5>Arduino Due</h5>
                 <p>€ 34,99</p>
             </div>
-            <div>
+            <div class="50">
                 <img src="images/producten/product_8.jpg">
                 <h5>Arduino Sensor Kit</h5>
                 <p>€ 28,99</p>
             </div>
-            <div>
+            <div class="50">
                 <img src="images/producten/product_9.jpg">
                 <h5>BIGTREETECH Ramps </h5>
                 <p>€ 19,99</p>
             </div>
-            <div>
+            <div class="50">
                 <img src="images/producten/arduino1.jfif">
                 <h5>Arduino Due</h5>
                 <p>€ 34,99</p>
             </div>
-            <div>
+            <div class="50">
                 <img src="images/producten/espn32.jpg">
                 <h5>Arduino Sensor Kit</h5>
                 <p>€ 28,99</p>
             </div>
-            <div>
+            <div class="50">
                 <img src="images/producten/rfid.jfif">
                 <h5>RFID set</h5>
                 <p>€ 32,99</p>
