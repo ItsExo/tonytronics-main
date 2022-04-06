@@ -231,6 +231,7 @@ main div p
 
 .footer{
     width: 100%;
+    margin-top: 25px;
     display: block;
     overflow: hidden;
     padding: 70px 0;
