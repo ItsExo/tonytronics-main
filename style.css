@@ -230,11 +230,13 @@ main div p
 /* ----------FOOTER---------- */
 
 .footer{
+    display: flex;
+    align-self: center;
     width: 100%;
     margin-top: 25px;
-    display: block;
     overflow: hidden;
     padding: 70px 0;
+    padding-right: 150px;
     box-sizing: border-box;
     background: lightblue; 
     color: black;
