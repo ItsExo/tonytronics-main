@@ -46,7 +46,7 @@ main
     display: inline-block;
     vertical-align: top;
     box-sizing: border-box;
-    min-height: calc(300vh);
+    min-height: calc(105vh);
 }
 
 aside
@@ -97,7 +97,8 @@ main div p
     overflow: hidden;
     padding: 70px 0;
     box-sizing: border-box;
-    background: rgb(27, 27, 27);
+    background: lightblue; 
+    color: black;
 }
 
 .inner_footer{
