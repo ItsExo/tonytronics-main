@@ -366,3 +366,23 @@ p {
         }
      }
 
+     @media(max-width: 600px){
+      .footerwrap {
+        flex-direction: column;
+    }
+
+    .artikel1,
+    .artikel2,
+    .artikel3 {
+        height: 150px;
+        width: 250px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .disclaimer {
+        font-size: 14px;
+    }
+     }
+
