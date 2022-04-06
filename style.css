@@ -346,6 +346,7 @@ p {
         }
 
         main {
+          height: auto;
           display: flex;
           justify-content: center;
           align-items: center;
