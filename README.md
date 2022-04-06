@@ -15,8 +15,6 @@
   
 ----------- Fjodor -----------
    
-first chancge werk dit?  
-   
    
    
 ----------- Indy -----------
