@@ -9,6 +9,15 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="shortcut icon" href="images/mobile_icon.ico" />
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(()=>{
+
+            $('#foldOutButton').on('click', function(){
+                $('.sidebar form').slideToggle();
+            })
+        })
+    </script>
 </head>
 
 <body>
@@ -18,7 +27,8 @@
             <div class="navbar">
                 <img alt="logo" src="images/logo_tonytronics.png">
 
-                <div class="mand"><a href="#">Winkelmand (0)</a></div>
+                <span class="ShoppingCard"><a href="#">Winkelmand (0)</a></span>
+                <div id="ShoppingCardFoldedOut"></div>
             </div>
 
             <nav>
@@ -28,6 +38,7 @@
         </header>
 
         <aside class="sidebar">
+            <div id="foldOutButton"> filter resultaten</div>
             <form>
                 <div class="side">
                     <h4>Prijs</h4>
