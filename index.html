@@ -10,14 +10,7 @@
     <link rel="shortcut icon" href="images/mobile_icon.ico" />
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
     <script src="jquery-3.6.0.min.js"></script>
-    <script>
-        $(document).ready(()=>{
-
-            $('#foldOutButton').on('click', function(){
-                $('.sidebar form').slideToggle();
-            })
-        })
-    </script>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -27,8 +20,7 @@
             <div class="navbar">
                 <img alt="logo" src="images/logo_tonytronics.png">
 
-                <span class="ShoppingCard"><a href="#">Winkelmand (0)</a></span>
-                <div id="ShoppingCardFoldedOut"></div>
+                <span class="ShoppingCard"><a href="#">Winkelmand (<span id="itemsInCard">0</span> )</a></span>
             </div>
 
             <nav>
@@ -66,62 +58,62 @@
             <div>
                 <img src="images/producten/product_1.jpg">
                 <h5>Arduino Uno Shield</h5>
-                <p>€ 10,99</p>
+                <p>€ 10,99 <span class="cost">10.99</span></p>
             </div>
             <div>
                 <img src="images/producten/product_2.jpg">
                 <h5>ximico Mega 2560 R3</h5>
-                <p>€ 16,99</p>
+                <p>€ 16,99<span class="cost">16.99</span></p>
             </div>
             <div>
                 <img src="images/producten/product_3.jpg">
                 <h5>Arduino Nano REV 3</h5>
-                <p>€ 16,10</p>
+                <p>€ 16,10<span class="cost">16.10</span></p>
             </div>
             <div>
                 <img src="images/producten/product_4.jpg">
                 <h5>Arduino Uno</h5>
-                <p>€ 12,99</p>
+                <p>€ 12,99<span class="cost">12.99</span></p>
             </div>
             <div>
                 <img src="images/producten/product_5.jpg">
                 <h5>Arduino Nano V3</h5>
-                <p>€ 9,95</p>
+                <p>€ 9,95<span class="cost">9.95</span></p>
             </div>
             <div>
                 <img src="images/producten/product_6.jpg">
                 <h5>ESP32-Audio-Kit</h5>
-                <p>€ 15,99</p>
+                <p>€ 15,99<span class="cost">15.99</span></p>
             </div>
             <div>
                 <img src="images/producten/product_7.jpg">
                 <h5>Arduino Due</h5>
-                <p>€ 34,99</p>
+                <p>€ 34,99<span class="cost">34.99</span></p>
             </div>
             <div>
                 <img src="images/producten/product_8.jpg">
                 <h5>Arduino Sensor Kit</h5>
-                <p>€ 28,99</p>
+                <p>€ 28,99<span class="cost">28.99</span></p>
             </div>
             <div>
                 <img src="images/producten/product_9.jpg">
                 <h5>BIGTREETECH Ramps </h5>
-                <p>€ 19,99</p>
+                <p>€ 19,99<span class="cost">19.99</span></p>
             </div>
             <div>
                 <img src="images/producten/arduino1.jfif">
                 <h5>Arduino Due</h5>
-                <p>€ 34,99</p>
+                <p>€ 34,99<span class="cost">34.99</span></p>
             </div>
             <div>
                 <img src="images/producten/espn32.jpg">
                 <h5>Arduino Sensor Kit</h5>
-                <p>€ 28,99</p>
+                <p>€ 28,99<span class="cost">28.99</span></p>
             </div>
             <div>
                 <img src="images/producten/rfid.jfif">
                 <h5>RFID set</h5>
-                <p>€ 32,99</p>
+                <p>€ 32,99<span class="cost">32.99</span></p>
             </div>
         </main>
     </div>
