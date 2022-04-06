@@ -1,3 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mand {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 header img
 {
     width: 300px;
@@ -13,14 +37,7 @@ header input
     top: 1.5em;
 }
 
-header span
-{
-    position: absolute;
-    right: 15px;
-    top: 1.5em;
-}
-
-header span a
+.mand a
 {
     color: black;
     text-decoration: none;
@@ -40,16 +57,16 @@ header nav a
     margin-right: 1.5em;
 }
 
-aside,
+.sidebar,
 main
 {
     display: inline-block;
     vertical-align: top;
     box-sizing: border-box;
-    min-height: calc(105vh);
+    height: 1100px;
 }
 
-aside
+.sidebar
 {
     width: 15%;
     padding: 15px;
@@ -227,94 +244,124 @@ main div p
     width: 40px;
     background-color: #fff;
   }
-  
-/* ----------FOOTER---------- */
 
-.footer{
-    display: block;
-    align-self: center;
-    width: 100%;
-    margin-top: 25px;
-    overflow: hidden;
-    padding: 70px 0;
-    box-sizing: border-box;
-    background: lightblue; 
-    color: black;
-}
-
-.inner_footer{
-    display: block;
-    margin: 0 auto;
-    width: 1100px;
-    height: 100%;
-}
-
-.inner_footer .logo_container{
-    width: 35%;
-    float: left;
-    height: 100%;
-    display: block;
-}
-
-.inner_footer .logo_container img{
-    width: 350px;
+  .footer {
+    max-width: 100%;
     height: auto;
-}
-
-.inner_footer .footer_third{
-    width: calc(21.6666666667% - 20px);
-    margin-right: 10px;
-    float: left;
-    height: 100%;
-}
-
-.inner_footer .footer_third:last-child{
-    margin-right: 0;
-}
-
-.inner_footer .footer_third h1{
-    font-family: 'Montserrat';
-    font-size: 22px;
+    background-color: #343A40;
+    margin-top: 20px;
     color: white;
-    display: block;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.inner_footer .footer_third a{
-    font-family: 'Montserrat';
-    font-size: 18px;
-    color: white;
-    display: block;
-    font-weight: 200px;
-    width: 100%;
-    padding-bottom: 5px;
-}
-
-.inner_footer .footer_third li{
-    display: inline-block;
-    padding: 0 5px;
     font-size: 20px;
 }
 
-.inner_footer .footer_third span{
-    color: white;
-    font-family: 'arial';
-    font-size: 16px;
-    font-weight: 200;
-    display: block;
-    width: 100%;
-    padding-top: 20px;
+p {
+  margin: 0;
 }
 
-@media(max-width: 640px){
-    .footer .inner_footer{
-        width: 90%;
-    }
+.footerwrap {
+    height: auto;
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
-    .inner_footer .logo_container,
-    .inner_footer  .footer_third {
-        width: 100%;
-        margin-bottom: 30px;
+.footerbottom {
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.artikel1 {
+    height: 150px;
+    width: 250px;
+    padding-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.artikel2 {
+    height: 150px;
+    width: 250px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.artikel3 {
+    height: 150px;
+    width: 250px;
+    padding-top: 20px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.footer .contact {
+    font-size: 12px;
+}
+
+.footer a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    font-size: 15px;
+    color: gray;
+    text-decoration: underline;
+}
+
+.disclaimer {
+  height: 60px;
+  max-width: 70%;
+  border-top: solid 1px gray;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ----------FOOTER---------- */
+
+
+    @media(max-width: 1255px){
+        .container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
         }
-    }
+
+        .sidebar {
+          width: 100%;
+          height: 150px;
+        }
+
+        header {
+          width: 100%;
+        }
+
+        main {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+        }
+
+        form{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          justify-content: space-around;
+          text-align: center;
+        }
+
+        .side {
+          margin-top: 15px;
+        }
+     }
+
