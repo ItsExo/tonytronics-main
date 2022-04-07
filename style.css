@@ -268,7 +268,7 @@ main div p
 .footer {
   max-width: 100%;
   height: auto;
-  background-color: lightblue;
+  background-color: rgb(85, 172, 201);
   margin-top: 20px;
   color: white;
   font-size: 20px;
@@ -290,7 +290,7 @@ margin: 0;
 .footerbottom {
   width: 100%;
   height: 30px;
-  background: lightblue;
+  background-color: lightblue;
 }
 
 .artikel1 {
