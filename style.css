@@ -276,7 +276,7 @@ main div p
 .footer {
   max-width: 100%;
   height: auto;
-  background-color: lightblue;
+  background-color: rgb(85, 172, 201);
   margin-top: 100px;
   color: white;
   font-size: 20px;
