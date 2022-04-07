@@ -58,20 +58,24 @@ header nav a
     margin-right: 1.5em;
 }
 
-.sidebar,
-main
+.sidebar
 {
     display: inline-block;
     vertical-align: top;
     box-sizing: border-box;
     height: 1100px;
-}
-
-.sidebar
-{
     width: 15%;
     padding: 15px;
     background-color: whitesmoke;
+}
+.sidebar #filterButton{
+  background-color: rgb(85, 172, 201);
+  
+  height: min-content;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: larger;
+  color: #fff;
 }
 #foldOutButton{
   display: none;
@@ -79,17 +83,16 @@ main
 
 main
 {
-  padding: 0%;
+    padding: 0 5px 0 5px;
     width: calc(85% - 5px);
-    
     float: right;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     
-    height: max-content;
-    
-    
+    height: min-content;
+    margin-bottom: 100px;
+ 
 }
 
 main div
@@ -268,8 +271,8 @@ main div p
 .footer {
   max-width: 100%;
   height: auto;
-  background-color: rgb(85, 172, 201);
-  margin-top: 20px;
+  background-color: lightblue;
+  margin-top: 100px;
   color: white;
   font-size: 20px;
 }
@@ -290,7 +293,7 @@ margin: 0;
 .footerbottom {
   width: 100%;
   height: 30px;
-  background-color: lightblue;
+  background: lightblue;
 }
 
 .artikel1 {
@@ -364,6 +367,7 @@ align-items: center;
           padding: 10px;
           width: 100%;
           height: min-content;
+          flex-wrap: wrap;
         }
         .sidebar form{
           margin-top: 20px;
@@ -373,6 +377,12 @@ align-items: center;
         header {
           width: 100%;
         }
+
+        main {
+          
+        }
+
+        
 
         form{
           display: flex;

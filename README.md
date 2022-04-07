@@ -12,9 +12,11 @@
  - nieuwe producten op de pagina gezet (3)
   
 ----------- Fjodor -----------
-test werkt push?
+- prutsen met github
+- main flex gemaakt 
 - JS winkelmand counter
 - Andere JS/CSS werkzaamheden
+- filteren van produchten op prijz
    
    
 ----------- Indy -----------

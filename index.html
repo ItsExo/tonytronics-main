@@ -14,6 +14,8 @@
     <!-- <script>
     $(document).ready(()=>{
 
+    
+
         
 
     })
@@ -41,11 +43,9 @@
             <form>
                 <div class="side">
                     <h4>Prijs</h4>
-                    <span class="priceFilter">
-                    <input type="checkbox"> €0-€20<br>
-                    <input type="checkbox"> €30-€40<br>
-                    <input type="checkbox"> €40-€50<br><br>
-                    </span>
+                    <input id="priceFilter1" type="checkbox"> €0-€10<br>
+                    <input id="priceFilter2" type="checkbox"> €10-€20<br>
+                    <input id="priceFilter3" type="checkbox"> €20-€30<br><br>
                 </div>
                 <div class="side">
                     <h4>Merk</h4>
@@ -59,7 +59,8 @@
                     <input type="checkbox"> Arduino<br>
                     <input type="checkbox"> Raspberrypi<br><br>
                 </div>
-
+              
+                <div id="filterButton">Filter resultaten</div>
             </form>
         </aside>
 
