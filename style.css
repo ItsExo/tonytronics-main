@@ -6,9 +6,6 @@
   font-family: 'Poppins',sans-serif;
 }
 
-
-
-
 .container {
   max-width: 100%;
 }
@@ -94,10 +91,9 @@ main
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+
     height: min-content;
     margin-bottom: 100px;
- 
 }
 
 main div
@@ -164,8 +160,7 @@ main div p
     background-color: lightblue;
     border-radius: 20px;
     box-shadow: 0 10px 40px lightblue, 0 0 0 20px #ffffffeb;
-    transform: scale(0.6);
-    
+    transform: scale(0.6);   
 }
 
   form {
@@ -382,12 +377,6 @@ align-items: center;
         header {
           width: 100%;
         }
-
-        main {
-          
-        }
-
-        
 
         form{
           display: flex;
